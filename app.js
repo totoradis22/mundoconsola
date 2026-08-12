@@ -214,7 +214,7 @@ document.addEventListener('DOMContentLoaded', () => {
             } else if (selectedCategory.includes('consolas')) {
                 matchesCategory = title.includes('playstation') || title.includes('xbox') || title.includes('nintendo') || title.includes('consola');
             } else if (selectedCategory.includes('accesorios')) {
-                matchesCategory = title.includes('audífono') || title.includes('silla') || description.includes('audífono') || description.includes('silla') || title.includes('accesorio');
+                matchesCategory = title.includes('audífono') || title.includes('silla') || title.includes('escritorio') || title.includes('micrófono') || title.includes('teclado') || description.includes('audífono') || description.includes('silla') || description.includes('escritorio') || description.includes('micrófono') || description.includes('teclado');
             }
 
             if (matchesSearch && matchesCategory) {
