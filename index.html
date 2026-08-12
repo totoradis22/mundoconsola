@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MundoConsola - Gaming Store</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- FontAwesome for icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MundoConsola | Tienda de Videojuegos</title>
+    
+    <!-- Favicon de control de videojuegos -->
+    <link rel="icon" href="https://img.icons8.com/ios-filled/50/00ff66/controller.png" type="image/png">
+    
+    <link rel="stylesheet" href="estilos.css">
+</head>
+<body>
+
+    <!-- HEADER -->
+    <header class="header">
+        <a href="#" class="logo">
+            <div class="logo-icon"><i class="fa-solid fa-gamepad"></i></div>
+            <div class="logo-text">
+                <h2>MUNDO<span>CONSOLA</span></h2>
+                <small>GAMING STORE</small>
+            </div>
+        </a>
+        <nav class="nav">
+            <a href="#">Inicio</a>
+            <a href="#">Ventas</a>
+            <a href="#">Catálogos</a>
+            <a href="#">Precios</a>
+        </nav>
+        <div class="header-actions">
+            <button class="icon-btn"><i class="fa-solid fa-magnifying-glass"></i></button>
+            <button class="cart-btn"><i class="fa-solid fa-cart-shopping"></i> <span class="cart-count">0</span></button>
+        </div>
+    </header>
+
+    <!-- HERO SECTION -->
+    <section class="hero">
+        <div class="hero-content">
+            <span class="hero-tag">CONSOLAS, JUEGOS Y ACCESORIOS</span>
+            <h1>Encuentra productos para todos tus gustos</h1>
+            <p>Las mejores marcas. Los mejores precios. Tu pasión, nuestro compromiso.</p>
+            <a href="#catalogo" class="btn-primary">Ver productos</a>
+        </div>
+        <div class="hero-banner-card">
+            <div class="special-badge"><i class="fa-solid fa-star"></i> OFERTA ESPECIAL</div>
+            <h2>Hasta <span>30%</span> de descuento</h2>
+            <p>En productos seleccionados.</p>
+        </div>
+    </section>
+
+    <!-- CATALOGO SECTION -->
+    <section class="catalogos-section" id="catalogo">
+        <div class="catalog-header-bar">
+            <div class="section-title">
+                <h2>PRODUCTOS DESTACADOS</h2>
+            </div>
+            <div class="search-filter-container">
+                <div class="search-box">
+                    <i class="fa-solid fa-magnifying-glass"></i>
+                    <input type="text" placeholder="Buscar productos...">
+                </div>
+                <select class="category-select">
+                    <option>Todas las categorías</option>
+                    <option>Consolas</option>
+                    <option>Controles</option>
+                    <option>Accesorios</option>
+                </select>
+            </div>
+        </div>
+
+        <div class="products-grid">
+            <!-- Producto 1 -->
+            <div class="product-card">
+                <span class="badge catalogos">Catálogos</span>
+                <div class="product-image-container">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS0nBkd_J6EMKvxtk3KMbLpVPV3SUtC7pQDOQVlyCiB0RCRTzUbrb8qncZm&s=10">
+                </div>
+                <div class="product-information">
+                    <h3>Xbox Series X Black</h3>
+                    <p>Xbox Series X color negro.</p>
+                    <div class="price">$4.650.000</div>
+                    <a href="#" class="add-button"><i class="fa-solid fa-cart-shopping"></i> Agregar</a>
+                </div>
+            </div>
+
+            <!-- Producto 2 -->
+            <div class="product-card">
+                <span class="badge ventas">Ventas</span>
+                <div class="product-image-container">
+                    <img src="https://imgs.search.brave.com/q4xYBX2es4AcBbsBtdAEuFcrswKprLqZJm5K0tYYb6Y/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9tZWRp/YS5nYW1lc3RvcC5j/b20vaS9nYW1lc3Rv/cC8yMDAwOTM0N19B/TFQwNj8kcGRwJD93/PTEyNTYmaD02NjQm/Zm10PWF1dG8">
+                </div>
+                <div class="product-information">
+                    <h3>PlayStation 5 Slim 1TB</h3>
+                    <p>Consola de última generación con lector de discos y almacenamiento de 1TB.</p>
+                    <div class="price">$3.250.000 COP</div>
+                    <a href="#" class="add-button"><i class="fa-solid fa-cart-shopping"></i> Agregar</a>
+                </div>
+            </div>
+
+            <!-- Producto 3 -->
+            <div class="product-card glow-card">
+                <span class="badge catalogos">Catálogos</span>
+                <div class="product-image-container">
+                    <img src="https://www.ktronix.com/medias/045496885144-001-750Wx750H?context=bWFzdGVyfGltYWdlc3wxMzIxNnxpbWFnZS93ZWJwfGFEazJMMmhrTWk4eE5UTTNNVFEyTVRVNU1UQTNNQzh3TkRVME9UWTRPRFV4TkRSZk1EQXhYemMxTUZkNE56VXdTQXxjZTI3ZjY3MDAxZmY0ODk3ZWExZWQyZmI0YzI3YzdmN2YzMTE5YTk2MWY0MzE3ZmNhOWFhNTk5MDE4MTA4NGQy">
+                </div>
+                <div class="product-information">
+                    <h3>Nintendo Switch OLED</h3>
+                    <p>Consola híbrida con pantalla OLED de 7 pulgadas y memoria interna de 64GB.</p>
+                    <div class="price">$1.650.000 COP</div>
+                    <a href="#" class="add-button"><i class="fa-solid fa-cart-shopping"></i> Agregar</a>
+                </div>
+            </div>
+
+            <!-- Producto 4 -->
+            <div class="product-card">
+                <span class="badge precios">Precios</span>
+                <div class="product-image-container">
+                    <img src="https://i0.wp.com/boxyc.com.co/wp-content/uploads/2023/05/51.jpg?fit=500%2C500&ssl=1">
+                </div>
+                <div class="product-information">
+                    <h3>Xbox Series S 512GB</h3>
+                    <p>Consola digital ideal para jugar en resolución 1440p.</p>
+                    <div class="price">$1.580.000 COP</div>
+                    <a href="#" class="add-button"><i class="fa-solid fa-cart-shopping"></i> Agregar</a>
+                </div>
+            </div>
+
+            <!-- Producto 5 -->
+            <div class="product-card">
+                <span class="badge ventas">Ventas</span>
+                <div class="product-image-container">
+                    <img src="https://boxyc.com.co/wp-content/uploads/2023/04/D_NQ_NP_631601-MCO54516082162_032023-O.jpg">
+                </div>
+                <div class="product-information">
+                    <h3>Control DualSense</h3>
+                    <p>Control inalámbrico original para PlayStation 5.</p>
+                    <div class="price">$389.900 COP</div>
+                    <a href="#" class="add-button"><i class="fa-solid fa-cart-shopping"></i> Agregar</a>
+                </div>
+            </div>
+
+            <!-- Producto 6 -->
+            <div class="product-card">
+                <span class="badge catalogos">Catálogos</span>
+                <div class="product-image-container">
+                    <img src="https://exitocol.vtexassets.com/arquivos/ids/23160524/audifonos-gamer-g7500-sonido-envolvente-microfono-ajustable-azul.jpg?v=638538900969000000">
+                </div>
+                <div class="product-information">
+                    <h3>Audífonos Gaming</h3>
+                    <p>Audífonos gamer con sonido envolvente y micrófono desmontable.</p>
+                    <div class="price">$499.900 COP</div>
+                    <a href="#" class="add-button"><i class="fa-solid fa-cart-shopping"></i> Agregar</a>
+                </div>
+            </div>
+
+            <!-- Producto 7 (Nuevo 1) -->
+            <div class="product-card">
+                <span class="badge ventas">Ventas</span>
+                <div class="product-image-container">
+                    <img src="https://www.intelcoms.net/wp-content/uploads/2025/01/Teclado-Mecanico-Gamer-Rgb-Redragon-Kumara-Blanco-Tenkeyless-Ingles-1.jpg">
+                </div>
+                <div class="product-information">
+                    <h3>Teclado Mecánico RGB</h3>
+                    <p>Teclado gamer switches mecánicos de alta durabilidad y retroiluminación.</p>
+                    <div class="price">$249.900 COP</div>
+                    <a href="#" class="add-button"><i class="fa-solid fa-cart-shopping"></i> Agregar</a>
+                </div>
+            </div>
+
+            <!-- Producto 8 (Nuevo 2) -->
+            <div class="product-card glow-card">
+                <span class="badge catalogos">Catálogos</span>
+                <div class="product-image-container">
+                    <img src="https://sillasergonomicas.com.co/wp-content/uploads/2021/05/SILLA-GAMER-BLUE-PRO-MAX.jpg">
+                </div>
+                <div class="product-information">
+                    <h3>Silla Gamer Pro</h3>
+                    <p>Diseño ergonómico ajustable con soporte lumbar y cojines acolchados.</p>
+                    <div class="price">$899.900 COP</div>
+                    <a href="#" class="add-button"><i class="fa-solid fa-cart-shopping"></i> Agregar</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FEATURES SECTION -->
+    <section class="features-section">
+        <div class="feature-card">
+            <div class="feature-icon green-bg"><i class="fa-solid fa-truck-fast"></i></div>
+            <div class="feature-info">
+                <h3>Envíos Rápidos</h3>
+                <p>Entregamos tus productos de forma rápida y segura en cualquier lugar del país.</p>
+            </div>
+        </div>
+        <div class="feature-card">
+            <div class="feature-icon green-bg"><i class="fa-solid fa-shield-halved"></i></div>
+            <div class="feature-info">
+                <h3>Compra Segura</h3>
+                <p>Protegemos tu información con métodos de pago totalmente seguros.</p>
+            </div>
+        </div>
+        <div class="feature-card glow-card">
+            <div class="feature-icon green-bg"><i class="fa-solid fa-headset"></i></div>
+            <div class="feature-info">
+                <h3>Soporte 24/7</h3>
+                <p>Nuestro equipo está disponible para ayudarte antes y después de tu compra.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer class="footer">
+        <div class="footer-links">
+            <a href="#">Sobre nosotros</a>
+            <a href="#">Términos y condiciones</a>
+            <a href="#">Política de privacidad</a>
+            <a href="#">Contacto</a>
+        </div>
+        <p>&copy; 2026 MundoConsola. Todos los derechos reservados.</p>
+    </footer>
+
+    <!-- Todo el contenido y secciones de tu página van aquí -->
+
+    <!-- Vinculación del archivo de JavaScript -->
+    <script src="app.js"></script>
+</body>
+</html>
+</body>
+</html>
